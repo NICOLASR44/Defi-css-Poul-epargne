@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+  background: url("./assets/graph-paper.svg"), linear-gradient(to right, #ec2F4B, #009FFF);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
