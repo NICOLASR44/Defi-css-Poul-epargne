@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Eina01";
+  src: url("/Eina01-Bold.ttf");
+}
+
 * {
   margin: 0;
+  font-family: "Eina01";
 }
 
 #root {
