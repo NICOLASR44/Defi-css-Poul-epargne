@@ -13,8 +13,8 @@ Vous êtes recruté(e) en tant que développeur(euse) frontend par la prestigieu
 
 Voici l'image de la carte de crédit que vous devez reproduire :
 
-![Carte de Crédit PoulEpargne recto](/face1.png)
-![Carte de Crédit PoulEpargne verso](/face2.png)
+![Carte de Crédit PoulEpargne recto](./face1.png)
+![Carte de Crédit PoulEpargne verso](./face2.png)
 
 
 ## 🔍 Critères d'Évaluation
