@@ -31,8 +31,6 @@ Nous avons hâte de voir vos créations et de célébrer ensemble la grandeur de
 Bon code à tous et à toutes ! 🐔💳
 
 
-
-
 ## 🔓 Bonus Secrets pour les Développeurs Intrépides
 
 ### 🥚 Bonus 1 : Protection des Informations Sensibles
