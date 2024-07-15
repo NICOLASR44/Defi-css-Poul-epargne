@@ -1,12 +1,12 @@
-import './App.css'
-import CreditCard from './components/CreditCard'
+import "./App.css";
+import CreditCard from "./components/CreditCard";
 
 function App() {
   return (
     <>
-      <CreditCard/>
+      <CreditCard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

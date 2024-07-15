@@ -1,31 +1,49 @@
-import "./CreditCard.css"
+import "./CreditCard.css";
 
+export default function CreditCard() {
+  return (
+    <div id="cardContainer">
+      <div className="card-header">
+        <span className="PouletDesign">
+          <img src="src/assets/Pouletvolant.png" alt="LogoPouletVolant" />
+        </span>
+        <img src="src/assets/poul'epargne.png" alt="Poul' Epargne Logo" className="logo" />
+        <span className="bank-name">
+          POUL' <br />
+          EPARGNE
+        </span>
+      </div>
 
-export default function CreditCard () {
-
-    return (
-        <div id="cardContainer">
-    
+      <div className="chip-and-contactless">
+        <div className="contactless-icon">
+          <img src="src/assets/sanscontact.png" alt="SansContactLogo" />
         </div>
-    )
+        <div className="chip">
+          {" "}
+          <img src="src/assets/puce.png" alt="ChipLogo" />
+        </div>
+      </div>
+      <div className="card-number">
+        <span className="NumberCard">1843 9236 0046 8346</span>
+      </div>
+      <div className="card-info">
+        <div className="Typecard">
+          <span>CARTE DE CREDIT DEBIT</span>
+        </div>
+        <div className="Expiration">
+          <span className="Expire">
+            EXPIRE <br />A FIN
+          </span>
+          <span className="ExpirationDate">07/28</span>
+        </div>
+      </div>
+      <div className="visa-logo">
+        <img src="src/assets/visa.png" alt="Visa Logo" />
+      </div>
+      <div className="card-holder">MME GALINA C. NUGGETS</div>
+      <div className="Triangle-icon">
+        <img src="src/assets/insert.png" alt="" />
+      </div>
+    </div>
+  );
 }
-
-
-
-
-//Texte Recto
-
-// POUL’ EPARGNE
-// 1843 9236 0046 8346
-// CARTE DE CREDIT DEBIT
-// EXPIRE A FIN
-// 07/28
-// MME GALINA C. NUGGETS
-
-
-//Texte Verso
-
-// Pondu le 12/07/2024 à 21h04
-// SIGNATURE DU TITULAIRE OBLIGATOIRE
-// PE LIBRE REPONSE 50299 - 93755 PLUMEBOURG CEDEX.
-// Important : carte strictement personnelle, propriété de la Poul’ Épargne émettrice qui peut la retirer à tout moment. Tout poulet trouvant cette carte est prié de bien vouloir l’adresser sous pli non affranchi à l’adresse ci dessus.
